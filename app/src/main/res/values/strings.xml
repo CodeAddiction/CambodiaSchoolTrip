@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Cambodia School Trip</string>
+    <string name="campaign_about">Camp Cambodia Trek School Expedition Cambodia is a spectacular natural beauty, filled with cultural sites and captivating people. Visit ancient historic sites such as the iconic Angkor Wat temple – the largest religious monument in the world, and the spectacular jungle temple of Ta Prohm. During your 4 week life-enhancing school expedition you’ll take a boat to the fascinating floating village on Tonle Sap Lake, experience the energetic hustle and bustle of the Siem Reap Night Markets and gain a new perspective on life as you explore the recent history of Cambodia at the Killing Fields and S21 Prison. Challenge yourself on a 4-5 day trek through the vibrant jungle, taking in the incredible sights and atmosphere before pitching your tent for a nights sleep under the monks pagoda.</string>
+    <string name="your_name">Your name</string>
+    <string name="contact_me">Contact me...</string>
+    <string name="your_email">Your email</string>
+    <string name="submit">Submit</string>
+    <string name="message">Message</string>
+    <string name="subject">Subject</string>
+    <string name="progress_so_far">Progress so far...</string>
+    <string name="progress_text">This is where the progress will be updated and the total raised shown in the thermometer</string>
+
+</resources>

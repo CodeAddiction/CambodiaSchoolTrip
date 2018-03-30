@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_red_light"
+    android:orientation="vertical"
+    tools:context="reddiapps.co.uk.cambodiaschooltrip.Home">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/title_container"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:padding="10dp"
+            android:src="@drawable/black_curved_rectangle_with_border" />
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:text="Cambodia School trip 2019"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="@drawable/black_curved_rectangle_with_border">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/about_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="About this campaign..."
+                android:onClick="startAbout"/>
+
+            <Button
+                android:id="@+id/donate_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Donate..."
+                android:onClick="startDonate"/>
+
+            <Button
+                android:id="@+id/progress_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/donate_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Campaign progress..."
+                android:onClick="startProgress"/>
+
+            <Button
+                android:id="@+id/contact_btn"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/progress_btn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:text="Contact..."
+                android:onClick="startContact"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
