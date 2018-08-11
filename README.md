@@ -1,0 +1,2 @@
+# CambodiaSchoolTrip
+Fund raising app
